@@ -11,7 +11,7 @@ before_script:
   - flake8 --max-complexity=15 --exclude=*.txt,*.md,*.pyc
 
 script:
-  - python CalculadoraTest.py
-  - coverage run CalculadoraTest.py
-  - coverage report CalculadoraTest.py
+  - python mummRaTest.py
+  - coverage run mummRaTest.py
+  - coverage report mummRaTest.py
   - coverage html
